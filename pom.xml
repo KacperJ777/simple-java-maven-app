@@ -22,6 +22,11 @@
             <artifactId>maven-compiler-plugin</artifactId>
             <version>3.8.1</version>
             <configuration>
+              <archive>
+                    <manifest>
+                        <mainClass>com.mycompany.app.Main</mainClass>
+                    </manifest>
+                </archive>
                 <source>11</source> <!-- Use your desired Java version -->
                 <target>11</target>
             </configuration>
